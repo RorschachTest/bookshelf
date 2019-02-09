@@ -8,7 +8,7 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-    <bean id="book" class="com.bookshelf.library.beans.Book"></bean>
+    <bean id="book" class="com.bookshelf.library.beans.Book" init-method="customInit"></bean>
 
     <!-- We can define our beans here -->
 </beans>
